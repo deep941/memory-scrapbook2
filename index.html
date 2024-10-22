@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memory Scrapbook for Shrawani</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Background music controls -->
+    <div class="music-controls">
+        <button id="playMusic" class="btn btn-outline-light btn-sm">Play Music</button>
+        <button id="pauseMusic" class="btn btn-outline-light btn-sm">Pause Music</button>
+    </div>
+
+    <!-- Scrapbook Container -->
+    <div class="scrapbook">
+        <!-- Page 1 -->
+        <div class="page active" id="page1">
+            <div class="content">
+                <img src="images/page1.jpeg" alt="Memory 1">
+                <h2>Our Date</h2>
+                <p>This was the day that started everything. I'll never forget that smile on your face when we first met.</p>
+            </div>
+        </div>
+        <!-- Page 2 -->
+        <div class="page" id="page2">
+            <div class="content">
+                <img src="images/page2.jpeg" alt="Memory 2">
+                <h2>That Cute  Date</h2>
+                <p>One of my favorite days! The coffee was amazing, but the company was even better.</p>
+            </div>
+        </div>
+        <!-- Page 3 -->
+        <div class="page" id="page3">
+            <div class="content">
+                <img src="images/page3.jpeg" alt="Memory 3">
+                <h2> Birthday</h2>
+                <p>I loved celebrating your birthday together. Here's to many more birthdays we will share.</p>
+            </div>
+        </div>
+        <!-- Page 4 -->
+        <div class="page active" id="page4">
+            <div class="content">
+                <img src="images/page4.jpeg" alt="Memory 4">
+                <h2>Our Date</h2>
+                <p>This was the day that started everything. I'll never forget that smile on your face when we first met.</p>
+            </div>
+    </div>
+
+<!-- Page 5 -->
+<div class="page active" id="page15">
+    <div class="content">
+        <img src="images/page5.jpeg" alt="Memory 5">
+        <h2>Our Cute Date</h2>
+        <p>This was the day that started everything. I'll never forget that smile on your face when we first met.</p>
+    </div>
+
+    <!-- Page 6 -->
+    <div class="page active" id="page6">
+        <div class="content">
+            <img src="images/page6.jpeg" alt="Memory 6">
+            <h2>Our Cute Date</h2>
+            <p>This was the day that started everything. I'll never forget that smile on your face when we first met.</p>
+        </div>
+
+        <!-- Page 7 -->
+        <div class="page active" id="page7">
+            <div class="content">
+                <img src="images/page7.jpeg" alt="Memory 7">
+                <h2>Our Cute Date</h2>
+                <p>This was the day that started everything. I'll never forget that smile on your face when we first met.</p>
+            </div>
+
+    <!-- Navigation Buttons -->
+    <div class="nav-buttons">
+        <button id="prevPage" class="btn btn-primary"><i class="fas fa-chevron-left"></i> Prev</button>
+        <button id="nextPage" class="btn btn-primary">Next <i class="fas fa-chevron-right"></i></button>
+    </div>
+
+    <!-- Background music -->
+    <audio id="backgroundMusic" loop>
+        <source src="music.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+
+    <script src="script.js"></script>
+</body>
+</html>
